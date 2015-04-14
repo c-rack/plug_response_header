@@ -1,4 +1,4 @@
-defmodule Plug.ResponseHeader.Mixfile do
+defmodule PlugResponseHeader.Mixfile do
   use Mix.Project
 
   def project do

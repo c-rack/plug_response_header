@@ -1,4 +1,4 @@
-defmodule Plug.ResponseHeader do
+defmodule PlugResponseHeader do
   
   @moduledoc """
   This plug allows manipulation of HTTP response headers:
@@ -16,7 +16,7 @@ defmodule Plug.ResponseHeader do
   ## Example
 
     pipeline :browser do
-      plug Plug.ResponseHeader,
+      plug PlugResponseHeader,
         delete: "x-request-id",
         server: "MyServer",
         set: ["Strict-Transport-Security": "max-age=31536000"]
@@ -28,7 +28,7 @@ defmodule Plug.ResponseHeader do
   import Plug.Conn, only: [delete_resp_header: 2, update_resp_header: 4]
 
   @doc "Callback implementation for Plug.init/1"
-  def init([]), do: raise "Please set at least one option or remove Plug.ResponseHeader"
+  def init([]), do: raise "Please set at least one option or remove PlugResponseHeader"
   def init(options), do: options
 
   @doc "Callback implementation for Plug.call/2"

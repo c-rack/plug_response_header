@@ -1,4 +1,4 @@
-# Plug.ResponseHeader [![Hex.pm Version](http://img.shields.io/hexpm/v/plug_response_header.svg)](https://hex.pm/packages/plug_response_header)
+# PlugResponseHeader [![Hex.pm Version](http://img.shields.io/hexpm/v/plug_response_header.svg)](https://hex.pm/packages/plug_response_header)
 
 
 This plug allows manipulation of HTTP response headers:
@@ -29,7 +29,7 @@ end
 
 ```elixir
 pipeline :browser do
-  plug Plug.ResponseHeader,
+  plug PlugResponseHeader,
     delete: "x-request-id",
     server: "MyServer",
     set: ["Strict-Transport-Security": "max-age=31536000"]

@@ -1,4 +1,5 @@
-# Plug.ResponseHeader
+# Plug.ResponseHeader [![Hex.pm Version](http://img.shields.io/hexpm/v/plug_response_header.svg)](https://hex.pm/packages/plug_response_header)
+
 
 This plug allows manipulation of HTTP response headers:
 

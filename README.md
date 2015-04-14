@@ -20,7 +20,7 @@ To use the plug in your projects, edit your mix.exs file and add the project as 
 ```elixir
 defp deps do
   [
-    { :plug_response_header, "~> 0.1.0" }
+    { :plug_response_header, "~> 0.2.0" }
   ]
 end
 ```

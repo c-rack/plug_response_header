@@ -1,4 +1,4 @@
-defmodule PlugResponseHeader do
+defmodule PlugResponseHeaderTest do
   use ExUnit.Case
   doctest PlugResponseHeader
 

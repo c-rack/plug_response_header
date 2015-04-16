@@ -4,7 +4,7 @@ defmodule PlugResponseHeader.Mixfile do
   def project do
     [
       app: :plug_response_header,
-      version: "0.2.0",
+      version: "0.2.1",
       elixir: ">= 1.0.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -20,8 +20,7 @@ defmodule PlugResponseHeader.Mixfile do
 
   defp deps do
     [
-      {:cowboy, "~> 1.0.0"},
-      {:plug, "~> 0.11.0"}
+      {:plug, ">= 0.11.0"}
     ]
   end
 

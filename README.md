@@ -1,7 +1,7 @@
 # PlugResponseHeader [![Hex.pm Version](http://img.shields.io/hexpm/v/plug_response_header.svg)](https://hex.pm/packages/plug_response_header)
 
 
-This plug allows manipulation of HTTP response headers:
+This [Elixir](http://elixir-lang.org/) [plug](https://github.com/elixir-lang/plug) allows manipulation of [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) response headers:
 
 * Deleting one or more HTTP response headers.
 * Setting one or more HTTP response headers.

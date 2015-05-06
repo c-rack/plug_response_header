@@ -32,7 +32,10 @@ pipeline :browser do
   plug PlugResponseHeader,
     delete: "x-request-id",
     server: "MyServer",
-    set: ["Strict-Transport-Security": "max-age=31536000"]
+    set: [
+      "Strict-Transport-Security": "max-age=31536000",
+      "Cache-Control": "no-transform"
+    ]
     ...
 end
 ```

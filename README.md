@@ -20,7 +20,7 @@ To use the plug in your projects, edit your mix.exs file and add the project as 
 ```elixir
 defp deps do
   [
-    { :plug_response_header, "~> 0.2.1" }
+    {:plug_response_header, "~> 0.2.1"}
   ]
 end
 ```
@@ -33,8 +33,8 @@ pipeline :browser do
     delete: "x-request-id",
     server: "MyServer",
     set: [
-      "Strict-Transport-Security": "max-age=31536000",
-      "Cache-Control": "no-transform"
+      "strict-transport-security": "max-age=31536000",
+      "cache-control": "no-transform"
     ]
     ...
 end
